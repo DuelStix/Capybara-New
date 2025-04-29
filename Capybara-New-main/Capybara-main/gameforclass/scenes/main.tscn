@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5qnqkqsugupg"]
+
+[ext_resource type="PackedScene" uid="uid://comu0noy3i2pm" path="res://scenes/levels/level_1.tscn" id="1_jslub"]
+[ext_resource type="PackedScene" uid="uid://docv0kjrjv85p" path="res://player.tscn" id="2_4wuav"]
+
+[node name="Main" type="Node"]
+
+[node name="2DScrene" type="Node2D" parent="."]
+
+[node name="Level1" parent="2DScrene" instance=ExtResource("1_jslub")]
+
+[node name="Player" parent="2DScrene" instance=ExtResource("2_4wuav")]
+scale = Vector2(2, 2)
