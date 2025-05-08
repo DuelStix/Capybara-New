@@ -11,13 +11,13 @@ config_version=5
 [application]
 
 config/name="Gameforclass"
-run/main_scene="uid://bdfj5m6onhga7"
-config/features=PackedStringArray("4.3", "Forward Plus")
+run/main_scene="uid://b5qnqkqsugupg"
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
-Global="*res://Global.gd"
+LevelManager="*res://Assets/Scripts/managers/LevelManager.gd"
 
 [display]
 
