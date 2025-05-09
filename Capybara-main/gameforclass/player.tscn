@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://docv0kjrjv85p"]
 
 [ext_resource type="Texture2D" uid="uid://c3e7y8e0vq8iw" path="res://Assets/sprites/mini_capy-removebg-preview.png" id="1_fvddv"]
-[ext_resource type="Script" path="res://player.gd" id="1_i3pqv"]
+[ext_resource type="Script" uid="uid://cn14ux4jmr7fh" path="res://player.gd" id="1_i3pqv"]
 [ext_resource type="Texture2D" uid="uid://yquxqyo8pf8" path="res://Assets/sprites/pixil-frame-0.png" id="1_stcbj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4flbx"]
@@ -119,4 +119,4 @@ drag_vertical_enabled = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 position = Vector2(2, -1)
-polygon = PackedVector2Array(-10, -10, -14, -10, -15, -8, -15, -2, -7, -2, -7, 5, -7, 10, 0, 10, -1, 4, 1, 3, 1, 3, 3, 5, 4, 10, 10, 10, 10, 1, 8, -5, 3, -7, 1, -7, 2, -11, 0, -16, -7, -16, -10, -11)
+polygon = PackedVector2Array(-10, -10, -13, -9, -14, -8, -14, -2, -7, -2, -6, 4, -5, 8, -5, 9, -1, 9, 0, 4, 2, 4, 4, 5, 5, 9, 9, 9, 10, 7.11909, 10, 1, 8, -5, 3, -6, 1, -7, -1, -10, -3, -14, -8, -14, -8, -11)

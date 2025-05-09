@@ -5,7 +5,9 @@ func ready():
 
 func restart():
 	resume()
-	
+	get_tree().paused = false
+	$AnimationPlayer.play_backwards("blur")
+	hide()
 func resume():
 	get_tree().paused = false
 	$AnimationPlayer.play_backwards("blur")
@@ -34,6 +36,6 @@ func _on_restart_button_pressed():
 	
 func _on_main_menu_button_pressed():
 	get_tree().change_scene_to_file("res://scenes/title_screen.tscn")
-
+	
 func _process(delta):
 	testEsc()
