@@ -22,7 +22,7 @@ func deactivate() -> void:
 	set_process_input(false)
 	
 func activate() -> void:
-	hide()
+	show()
 	set_process(true)
 	set_physics_process(true)
 	set_process_unhandled_input(true)
