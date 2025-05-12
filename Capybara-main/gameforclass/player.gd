@@ -1,3 +1,4 @@
+class_name Player
 extends CharacterBody2D
 
 const SPEED = 220.0
@@ -77,4 +78,6 @@ func handle_danger() -> void:
 	reset_player()
 
 func reset_player() -> void:
-	global_position = Global.level_num
+	global_position = LevelManager.loaded_level.level_start_pos.global_position
+	visible = true
+	can_control = true

@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://7sd64h0ulsw7"]
 
-[ext_resource type="Script" uid="uid://cxqdcokgw7g1x" path="res://Assets/Scripts/volume.gd" id="1_wvjlw"]
+[ext_resource type="Script" uid="uid://cxqdcokgw7g1x" path="res://scenes/volume.gd" id="1_wvjlw"]
 [ext_resource type="Texture2D" uid="uid://bs7gp1invitfx" path="res://Assets/sprites/tilemap-backgrounds.png" id="2_xvi8a"]
 [ext_resource type="FontFile" uid="uid://dyg0yu4n61myu" path="res://Assets/Fonts/Naluka.ttf" id="3_w60lv"]
 
